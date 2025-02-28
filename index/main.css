@@ -1,9 +1,7 @@
-body {
+.global{
   background-color: silver;
   color: black;
   font-size: 19px;
-  margin: 50px 0 0 500px;
-  padding: 5px;
 }
 
 .logo img{
@@ -11,7 +9,16 @@ body {
   height: 150px;
   border-radius: 50%;
 }
-
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;  
+}
+nav a{
+  color: rgb(124, 23, 23);
+  text-decoration: none;
+  font-size: 20px;
+}
 .column {
   box-sizing: border-box;
   float: left;
@@ -29,7 +36,6 @@ body {
   width: 50%;
 }
 
-/* Booking Section Styles */
 .booking-section {
   max-width: 600px;
   margin: 2rem auto;
@@ -76,4 +82,13 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background: #0056b3;
+}
+
+.m1{
+  background-color: silver;
+  color: black;
+  font-size: 19px;
+  margin: 50px 0 0 500px;
+  padding: 5px;
+  
 }
